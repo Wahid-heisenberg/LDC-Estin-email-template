@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+    <title>LDC email template</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Changa&display=swap');
+    *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Changa', sans-serif;
+    }
+   
+    a{ 
+        text-decoration: none;
+        color: rgb(114, 185, 43);
+    }
+    h3{ 
+       color:rgba(0, 176, 175, 1);
+       margin-bottom: 7px;
+    }
+   
+  .content {
+
+ display: flex;
+ align-items: center;
+ justify-content: center;
+
+  
+  
+  }
+    .container {
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    flex-direction: column;
+    padding: 0px 20px 15px 20px;
+    background-image: url(./assets/bzckgroundps2.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover; 
+    min-height: 65vh;
+
+}
+.title{
+  
+   color:rgb(18, 73, 95)  ;
+   margin-bottom: 10px;
+}
+
+.cards 
+{
+     position: relative;
+     width: 100%;
+     
+}
+.card-1 , .card-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+padding: 15px;
+    background-color:rgba(217, 217, 217, 1);
+    border: none;
+    border-radius: 18px;
+    margin-bottom: 10px;
+}
+.card-2 {
+    padding-top: 15px;
+}
+.logophone {
+    display: none;
+    align-items: center;
+    width: 100%;
+    
+   
+}
+.logophone img ,.logopc img {
+    height: 100px;
+}
+.logopc{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+}
+.green {
+    color:rgba(41, 137, 25, 1);
+    font-weight: 500;
+}
+.violet{
+    color:rgba(46, 28, 255, 1);
+    font-weight: 500;
+}
+
+.red{
+    color:rgba(233, 26, 63, 1);
+    font-weight: 500;
+}
+
+@media (max-width:375px) 
+{ 
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width:314px) 
+{ 
+    .container {
+    padding: 0px 10px 15px 10px;
+}
+h2{
+    font-size:24px;
+}
+h3{
+    font-size:20px;
+}
+p{
+    font-size:17px;
+}
+
+}
+@media (max-width:292px) 
+{ 
+
+h2{
+    font-size:22px;
+}
+h3{
+    font-size:18px;
+}
+p{
+    font-size:16px;
+}
+
+}
+@media (min-width:980px) 
+{ 
+
+    .container {
+        width: 800px;
+    }
+
+}
+
+    </style>
+</head>
+<body>
+    <div class="content">
+    <div class="container">
+      
+        <div class="logophone">
+          <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="logopc">
+            <img src="./assets/logo.png" alt="">
+        </div>
+        <div class="title">
+            <h2>Leisure and discivery club</h2>
+        </div>
+        
+        <div class="cards">
+            <div class="card-1">
+
+                <h3>Welcome To LDCDear</h3>
+                <p>
+       
+                    
+                    Dear applicant,
+we’re delighted
+ to inform you that you have officially been <span class="green">accepted</span> to 
+ take part of Leisure And Discovery Club at <span class="violet">ESTIN</span> .
+  We’re also sending this email to let you know that
+   your current position is an official member of <span class="red">communication Department</span>.
+    Further details concerning the workflow and workload will be communicated to
+     you in an ulterior time. <span class="violet">Welcome abroad</span>, and we wish you the best continuation 
+     among us and a lot of fun with us
+                </p>
+            </div>
+            <div class="card-2">
+                <h4>
+                    DISCORD
+                </h4>
+
+                <p>
+                    <span> 
+                        <a href="">
+                        Join Us
+                    </a>
+                </span> on Discord and You will be contacted soon
+                     by your department manager for your first meeting,
+                      in order to have a
+                     better view about the working method
+                </p>
+            </div>
+     
+
+      
+    </div>
+</div>
+</body>
+</html>
